@@ -44,11 +44,11 @@ Dalam melakukan penginstallan web ini ada beberapa hal yang harus dilakukan terl
 ## Penginstallan
 <ol>
     <li>Mendownload atau mengcloning file yang ada di direktori.</li>
-    <li>Membuka file XAMPP, kemudian buka file "htdocs".</li>
-    <li>Memindahkan file yang telah di unduh kedalam file "htdocs".</li>
-    <li>Kemudian buka XAMPP Control Panel, dan hidupkan "Apache" dan "MySQL".</li>
-    <li>Kemudian pada MySQL, pilih Admin untuk menuju server localhost.</li>
-    <li>Kemudian lakukan pengimportan database yang ada di dalam direktori "Upsize.sql".</li>
+    <li>Membuka file XAMPP, kemudian buka file "<b>htdocs</b>".</li>
+    <li>Memindahkan file yang telah di unduh kedalam file "<b>htdocs</b>".</li>
+    <li>Kemudian buka XAMPP Control Panel, dan hidupkan "<b>Apache</b>" dan "<b>MySQL</b>".</li>
+    <li>Kemudian pada <b>MySQL</b>, pilih Admin untuk menuju server localhost.</li>
+    <li>Kemudian lakukan pengimportan database yang ada di dalam direktori <b>"Upsize.sql"</b>.</li>
     <li>Setelah itu buka file code yang disediakan pada <b>Visual Studio Code</b>.</li>
     <li>Lakukan "composer install" terlebih dahulu</li>
     <li>Lakukan "php migrate"</li>
