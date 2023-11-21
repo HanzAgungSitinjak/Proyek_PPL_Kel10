@@ -28,13 +28,14 @@ Website Upsize merupakan sebuah website yang menghadirkan sebuah solusi berupa p
 </ul>
 
 ## Cara melakuakan penginstallan :
-
-hay my name hans
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Dalam melakukan penginstallan web ini ada beberapa hal yang harus dilakukan terlebih dahulu:
+<h4>Mempersiapkan Environment</h4>
+<p>Visual Studio Code</p>
+<ul>
+    <li>lakukan instalasi Visual Studio Code pade perangkat anda, Download di <a href="https://code.visualstudio.com/download">Visual Studio Code</a></li>
+    <li>Anda juga dapat melihat cara penginstallannya sabgai <a href="https://www.belajarisme.com/tutorial/install-vscode/">Berikut</a></li>
+   
+</ul>
 
 ## Laravel Sponsors
 
@@ -55,6 +56,7 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[OP.GG](https://op.gg)**
 - **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
 - **[Lendio](https://lendio.com)**
+- 
 
 ## Contributing
 
