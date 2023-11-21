@@ -27,49 +27,30 @@ Website Upsize merupakan sebuah website yang menghadirkan sebuah solusi berupa p
     <li>Pengaduan</li>
 </ul>
 
-## Cara melakuakan penginstallan :
+## Persiapan Environment :
 Dalam melakukan penginstallan web ini ada beberapa hal yang harus dilakukan terlebih dahulu:
 <h4>Mempersiapkan Environment</h4>
 <p>Visual Studio Code</p>
 <ul>
     <li>lakukan instalasi Visual Studio Code pade perangkat anda, Download di <a href="https://code.visualstudio.com/download">Visual Studio Code</a></li>
     <li>Anda juga dapat melihat cara penginstallannya sabgai <a href="https://www.belajarisme.com/tutorial/install-vscode/">Berikut</a></li>
-   
+</ul>
+<p>XAMPP</p>
+<ul>
+    <li>lakukan instalasi XAMPP pade perangkat anda yang akan berfungsi sebagai erver lokal yang sudah mencakup program Apache, MySQL, dan PHP. Download di <a href="https://code.visualstudio.com/download">XAMPP</a></li>
+    <li>Anda juga dapat melihat cara penginstallannya sabgai <a href="https://www.codepolitan.com/blog/mengenal-xampp-dan-cara-install-xampp-di-windows/">Berikut ini</a></li>
 </ul>
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-- 
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Penginstallan
+<ol>
+    <li>Mendownload atau mengcloning file yang ada di direktori.</li>
+    <li>Membuka file XAMPP, kemudian buka file "htdocs".</li>
+    <li>Memindahkan file yang telah di unduh kedalam file "htdocs".</li>
+    <li>Kemudian buka XAMPP Control Panel, dan hidupkan "Apache" dan "MySQL".</li>
+    <li>Kemudian pada MySQL, pilih Admin untuk menuju server localhost.</li>
+    <li>Kemudian lakukan pengimportan database yang ada di dalam direktori "Upsize.sql".</li>
+    <li>Setelah itu buka file code yang disediakan pada <b>Visual Studio Code</b>.</li>
+    <li>Lakukan "composer install" terlebih dahulu</li>
+    <li>Lakukan "php migrate"</li>
+    <li>Dan website sudah dapat diakses.</li>
+</ol>
