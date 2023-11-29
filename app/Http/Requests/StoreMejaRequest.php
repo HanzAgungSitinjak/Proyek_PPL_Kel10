@@ -11,7 +11,7 @@ class StoreMejaRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true; // Set to true to allow anyone to perform this action
     }
 
     /**
@@ -22,7 +22,9 @@ class StoreMejaRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'cover' => 'required',
+            'meja' => 'required|unique:mejas', // Add any other validation rules you need
+            'description' => 'required',
         ];
     }
 }

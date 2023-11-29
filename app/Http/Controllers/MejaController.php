@@ -13,7 +13,25 @@ class MejaController extends Controller
      */
     public function index()
     {
-        //
+        $externalApiUrl = 'http://localhost:8000/api/meja';
+        $response = Http::get($externalApiUrl);
+
+        if ($response->successful()) {
+            $externalData = $response->json();
+            // Lakukan sesuatu dengan data yang diterima dari API eksternal
+        } else {
+            // Tangani error jika diperlukan
+            abort($response->status());
+        }
+
+        // Mengambil data dari database lokal
+        $meja = Meja::paginate(10);
+
+        // Menampilkan data di view
+        return view('meja.index', [
+            'localData' => $meja,
+            'externalData' => $externalData ?? null,
+        ]);
     }
 
     /**
@@ -23,13 +41,24 @@ class MejaController extends Controller
     {
         //
     }
-
+ 
     /**
      * Store a newly created resource in storage.
      */
     public function store(StoreMejaRequest $request)
     {
-        //
+        $request->validate([
+            'cover' => 'required',
+            'meja' => 'required|unique:mejas', // Add any other validation rules you need
+            'description' => 'required',
+        ]);
+
+        $meja = Meja::create($request->all());
+
+        return response()->json([
+            'message' => 'Meja created successfully',
+            'data' => $meja
+        ], 201);
     }
 
     /**
@@ -37,7 +66,9 @@ class MejaController extends Controller
      */
     public function show(Meja $meja)
     {
-        //
+        return response()->json([
+            'data' => $meja
+        ]);
     }
 
     /**
@@ -53,7 +84,18 @@ class MejaController extends Controller
      */
     public function update(UpdateMejaRequest $request, Meja $meja)
     {
-        //
+        $request->validate([
+            'cover' => 'required',
+            'meja' => 'required|unique:mejas,meja,' . $meja->id,
+            'description' => 'required',
+        ]);
+    
+        $meja->update($request->all());
+    
+        return response()->json([
+            'message' => 'Meja updated successfully',
+            'data' => $meja
+        ]);
     }
 
     /**
@@ -61,6 +103,11 @@ class MejaController extends Controller
      */
     public function destroy(Meja $meja)
     {
-        //
+        $meja->delete();
+
+        return response()->json([
+            'message' => 'Meja deleted successfully',
+            'data' => null
+        ]);
     }
 }

@@ -2,6 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\api\MejaControllerApi;
+use App\Http\Controllers\MejaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +19,8 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::apiResource('meja', MejaController::class);
+Route::post('meja', [MejaController::class, 'store']);
+Route::delete('meja/{meja}', [MejaController::class, 'destroy']);
+Route::put('meja/{meja}', [MejaController::class, 'update']);
