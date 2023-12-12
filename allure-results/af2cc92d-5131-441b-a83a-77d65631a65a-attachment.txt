@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"a.remove-item-btn\"}\n  (Session info: chrome=120.0.6099.71)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF7A33F4D02+56194]\n\t(No symbol) [0x00007FF7A33604B2]\n\t(No symbol) [0x00007FF7A32076AA]\n\t(No symbol) [0x00007FF7A32516D0]\n\t(No symbol) [0x00007FF7A32517EC]\n\t(No symbol) [0x00007FF7A3294D77]\n\t(No symbol) [0x00007FF7A3275EBF]\n\t(No symbol) [0x00007FF7A3292786]\n\t(No symbol) [0x00007FF7A3275C23]\n\t(No symbol) [0x00007FF7A3244A45]\n\t(No symbol) [0x00007FF7A3245AD4]\n\tGetHandleVerifier [0x00007FF7A376D5BB+3695675]\n\tGetHandleVerifier [0x00007FF7A37C6197+4059159]\n\tGetHandleVerifier [0x00007FF7A37BDF63+4025827]\n\tGetHandleVerifier [0x00007FF7A348F029+687785]\n\t(No symbol) [0x00007FF7A336B508]\n\t(No symbol) [0x00007FF7A3367564]\n\t(No symbol) [0x00007FF7A33676E9]\n\t(No symbol) [0x00007FF7A3358094]\n\tBaseThreadInitThunk [0x00007FFB7DA953E0+16]\n\tRtlUserThreadStart [0x00007FFB7EBA485B+43]\n"
+}
