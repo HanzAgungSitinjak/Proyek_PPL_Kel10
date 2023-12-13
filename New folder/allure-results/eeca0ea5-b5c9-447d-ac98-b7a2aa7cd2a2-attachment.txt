@@ -1,0 +1,3 @@
+{
+  "text": "contoh1.png"
+}

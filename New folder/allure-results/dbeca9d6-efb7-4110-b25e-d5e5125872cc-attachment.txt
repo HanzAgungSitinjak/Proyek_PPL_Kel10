@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".swal2-popup\"}\n  (Session info: chrome=119.0.6045.200)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF6656B82B2+55298]\n\t(No symbol) [0x00007FF665625E02]\n\t(No symbol) [0x00007FF6654E05AB]\n\t(No symbol) [0x00007FF66552175C]\n\t(No symbol) [0x00007FF6655218DC]\n\t(No symbol) [0x00007FF66555CBC7]\n\t(No symbol) [0x00007FF6655420EF]\n\t(No symbol) [0x00007FF66555AAA4]\n\t(No symbol) [0x00007FF665541E83]\n\t(No symbol) [0x00007FF66551670A]\n\t(No symbol) [0x00007FF665517964]\n\tGetHandleVerifier [0x00007FF665A30AAB+3694587]\n\tGetHandleVerifier [0x00007FF665A8728E+4048862]\n\tGetHandleVerifier [0x00007FF665A7F173+4015811]\n\tGetHandleVerifier [0x00007FF6657547D6+695590]\n\t(No symbol) [0x00007FF665630CE8]\n\t(No symbol) [0x00007FF66562CF34]\n\t(No symbol) [0x00007FF66562D062]\n\t(No symbol) [0x00007FF66561D3A3]\n\tBaseThreadInitThunk [0x00007FF934A7257D+29]\n\tRtlUserThreadStart [0x00007FF9362EAA58+40]\n"
+}

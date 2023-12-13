@@ -1,0 +1,4 @@
+{
+  "script": "return (() => window.performance.getEntriesByType('resource').filter(entry => entry.initiatorType === 'xmlhttprequest').length === 0).apply(null, arguments)",
+  "args": []
+}

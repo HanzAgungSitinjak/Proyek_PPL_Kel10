@@ -1,0 +1,3 @@
+{
+  "text": "C:/Users/USER/Pictures/Screenshots/ss.png"
+}

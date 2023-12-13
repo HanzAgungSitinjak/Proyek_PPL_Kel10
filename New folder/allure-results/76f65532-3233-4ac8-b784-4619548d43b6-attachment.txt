@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".swal2-confirm.swal2-styled\"}\n  (Session info: chrome=120.0.6099.71)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF6BDBF4D02+56194]\n\t(No symbol) [0x00007FF6BDB604B2]\n\t(No symbol) [0x00007FF6BDA076AA]\n\t(No symbol) [0x00007FF6BDA516D0]\n\t(No symbol) [0x00007FF6BDA517EC]\n\t(No symbol) [0x00007FF6BDA94D77]\n\t(No symbol) [0x00007FF6BDA75EBF]\n\t(No symbol) [0x00007FF6BDA92786]\n\t(No symbol) [0x00007FF6BDA75C23]\n\t(No symbol) [0x00007FF6BDA44A45]\n\t(No symbol) [0x00007FF6BDA45AD4]\n\tGetHandleVerifier [0x00007FF6BDF6D5BB+3695675]\n\tGetHandleVerifier [0x00007FF6BDFC6197+4059159]\n\tGetHandleVerifier [0x00007FF6BDFBDF63+4025827]\n\tGetHandleVerifier [0x00007FF6BDC8F029+687785]\n\t(No symbol) [0x00007FF6BDB6B508]\n\t(No symbol) [0x00007FF6BDB67564]\n\t(No symbol) [0x00007FF6BDB676E9]\n\t(No symbol) [0x00007FF6BDB58094]\n\tBaseThreadInitThunk [0x00007FFCD3EE257D+29]\n\tRtlUserThreadStart [0x00007FFCD48EAA58+40]\n"
+}

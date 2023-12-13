@@ -1,0 +1,3 @@
+{
+  "text": "D:TINGKAT 3PPL\testimagescontoh1.png"
+}
