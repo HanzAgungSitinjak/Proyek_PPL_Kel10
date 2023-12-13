@@ -1,0 +1,1 @@
+[{"uid":"7d6023d6a457c7ae","name":"should login with valid credentials","time":{"start":1702386459285,"stop":1702386467334,"duration":8049},"status":"passed","severity":"normal"},{"uid":"dfd704381f20337a","name":"should navigate to \"Daftar Menu\" and \"Keranjang\" pages","time":{"start":1702386471631,"stop":1702386479364,"duration":7733},"status":"passed","severity":"normal"}]

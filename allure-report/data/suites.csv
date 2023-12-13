@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Dec 12 20:07:39 WIB 2023","Tue Dec 12 20:07:47 WIB 2023","8049","","My Login application","","","","should login with valid credentials",""
+"passed","Tue Dec 12 20:07:51 WIB 2023","Tue Dec 12 20:07:59 WIB 2023","7733","","Laravel Project Testing","","","","should navigate to ""Daftar Menu"" and ""Keranjang"" pages",""
