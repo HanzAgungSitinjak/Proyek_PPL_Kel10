@@ -22,7 +22,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/ui/adminKritikSaranTest.js'
+        './test/specs/ui/userKritikSaranTest.js'
     ],
     // Patterns to exclude.
     exclude: [

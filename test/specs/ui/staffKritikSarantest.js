@@ -21,7 +21,7 @@ describe('Laravel Project Testing', () => {
       console.log('Selamat Datang !');
   
       // Navigasi ke halaman kritik saran
-      await browser.url('http://127.0.0.1:8000/admin/kritik');
+      await browser.url('http://127.0.0.1:8000/staff/kritik');
       await browser.pause(3000);
   
       // Memprint data dari kritik dan saran dari user
@@ -38,7 +38,33 @@ describe('Laravel Project Testing', () => {
       // Scroll into view if necessary
       await klikEksporPDF.scrollIntoView();
   
-      await browser.pause(5000);
+      await browser.pause(3000);
+
+      // Menghapus kritik dan saran 
+       // Click the delete icon
+       const deleteIcon = await $('a.remove-item-btn');
+       await deleteIcon.waitForClickable();
+       await deleteIcon.click();
+       await browser.pause(3000);
+
+       // Wait for confirmation modal to appear
+       const confirmationModal = await $('.swal2-popup');
+       await confirmationModal.waitForDisplayed();
+
+       // Confirm the deletion
+       const confirmButton = await $('.swal2-confirm');
+       await confirmButton.waitForClickable();
+       await confirmButton.click();
+       await browser.pause(3000);
+
+       // Wait for the top-up button to appear after deletion
+       const topUpButton = await $('button.swal2-confirm.swal2-styled');
+       await topUpButton.waitForDisplayed();
+       await browser.pause(3000);
+
+       // Click the top-up button
+       await topUpButton.waitForClickable();
+       await topUpButton.click();
   
       // Fungsi testLogin dan pauseFor5Seconds tetap digunakan seperti sebelumnya
       async function testLogin(email, password, expectedUrl) {
